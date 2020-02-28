@@ -1,0 +1,252 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+    font-family: 'Lato',sans-serif;
+    width: 80%;
+    padding: 0px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 50px;
+    background: url('ven.jpg') center fixed;
+    background-size: cover;
+}
+footer{
+	position:absolute;
+	bottom:-70px;
+	height: 50px;
+	text-align: center;
+	width:100%;
+	left:0px;
+	background: black;
+	color:white;
+	padding-top:20px;
+}
+nav{
+	position:fixed;
+	width: 100%;
+	top:0;
+	left:0;
+	margin:0;
+	background: rgba(255,60,60,0.4);
+	transition: .5s;
+	box-shadow: 0px 2px 5px black;
+}
+nav ul{
+	list-style-type: none;
+	padding:0;
+	margin:0;
+
+}
+nav ul li{
+	display: inline-block;
+	width:33%;
+	text-align: center;
+	height:42px;
+
+}
+nav li a{
+	text-decoration: none;
+	padding: 10px;
+    display: block;
+    cursor:pointer;
+    font-weight: 700;
+    color:white;
+}
+nav li:hover{
+	background: rgba(255,220,220,0.8);;
+	transition: .5s;
+}
+nav li a:hover{
+ 
+transition: .5s;
+text-shadow: black 0px 0px 5px;
+}
+#content{
+	background: rgba(255,240,240,0.8);
+	padding:20px;
+	margin-top:250px;
+	padding-bottom:40px;
+}
+small{
+	font-size: 0.5em;
+}
+.Pozytywny{
+background: rgba(2, 241, 14, 0.5);
+padding:10px 20px;
+}
+.Negatywny{
+background: rgba(99, 0, 0, 0.86);
+padding:10px 20px;
+}
+.Neutralny{
+background: rgba(255,215,26,0.5);
+padding:10px 20px;
+}
+p.date{
+	font-weight: bolder;
+
+}
+p.nick{
+	text-shadow: 1px 1px 1px;
+}
+a.addkom {
+    text-decoration: none;
+    display: block;
+    border: solid 1px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+    margin-top:20px;
+}
+a.addkom:hover,button#style:hover{
+	background: black;
+	color:white;
+	transition: .5s;
+}
+input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    font-size: 14px;
+}
+textarea {
+    width: 100%;
+    height: 55px;
+    resize:none;
+}
+input[type='submit']:hover, input[type='reset']:hover{
+	background: black;
+	color:white;
+	transition: .5s;
+}
+input[type='submit'], input[type='reset']{
+width: 200px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 18px;
+    background: transparent;
+    border: solid 1px;
+    color: black;
+    margin-top: 20px;
+    cursor:pointer;
+}
+h2 a{
+	text-decoration: none;
+	color:black;
+	cursor:pointer;
+}
+h2.poscik{
+	border-top:solid 1px black;
+	padding-top:10px;
+}
+p.post{
+	padding:10px;
+}
+a.files{
+	color: black;
+font-style: italic;
+margin-bottom: 10px;
+display: inline-block;
+}
+
+#stylee {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 43px;
+    padding: 20px 0px;
+    background: rgba(255,60,60,0.4);
+    transition: .5s;
+    box-shadow: 0px 2px 5px black;
+}
+#stylee.unclicked{
+	 background: rgba(255,60,60,0.4);
+}
+#stylee.clicked{
+	 background: rgba(255,60,60,0.25);
+}
+#stylee a {
+    display: none;
+    padding: 20px 0;
+    width: 100%;
+    font-weight: 700;
+    text-shadow: white 0px 0px 15px;
+     transition: .5s;
+}
+button#style {
+    background: rgba(80,0,0,1);
+    font-size: 18px;
+    padding: 15px 0px;
+    width: 180px;
+    cursor:pointer;
+    color:black;
+    text-shadow:white 0px 0px 5px;
+     transition: .5s;
+     font-weight: 700;
+    
+}
+button.unclicked{
+	 border: none;
+}
+button.clicked{
+	border: solid 1px black;
+	margin-bottom:30px;
+}
+button#style:hover{
+	text-shadow: black 0px 0px 0px;
+}
+a.stylee:hover{
+	background: rgba(80,20,20,1);;
+	transition: .5s;
+	box-shadow: black 0px 5px 5px;
+	cursor:pointer;
+	font-size:1.2em;
+}
+ #messages p{
+      white-space: pre-line;
+          padding: 10px;
+          color:black;
+    }
+    #messages{
+     background: white
+
+    }
+    #komunikator{
+       position: fixed;
+      bottom: 0;
+      right: 0;
+      padding: 20px;
+      background: rgba(80,0,0,0.8);
+      z-index: 100000;
+     border: solid black;
+    background-image: url(http://icons.iconarchive.com/icons/icons8/windows-8/256/Messaging-Chat-icon.png);
+    background-size: 49px;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: 11px;
+    color:white;
+    }
+    button#send {
+    border-radius: 0px;
+    margin: 0;
+    width: 168px;
+    display: inline-block;
+    position: absolute;
+    right: 16px;
+    padding: 6px;
+    font-size: 14px;
+    cursor:pointer;
+    background: black;
+    color:white;
+
+}
+#nick{
+ width: calc(100% - 180px);
+}
+#send:hover{
+background: white;
+color:black;
+}

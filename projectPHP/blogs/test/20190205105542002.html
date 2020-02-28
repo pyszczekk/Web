@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+
+ <head>
+   <title>Ćwiczenie nr 2</title>
+      <meta http-equiv="Content-Type" content="application/xhtml+xml;charset=UTF-8" />
+    <link rel="stylesheet" media="screen" type="text/css" href="./cw1.css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="./cw2.css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="./cw3.css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="./cw4.css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="./cw5.css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="./cw6.css" />
+    <link rel="stylesheet" media="print" type="text/css" href="./cw7.css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="./cw9.css" />
+     <link rel="alternate stylesheet" media="screen" type="text/css" href="./cw8.css"  title="alternative"/>
+ </head>
+ <body>
+ 		<h1 class="main-title">Tytuł strony</h1>
+ 	<div id="menu">
+ 		<a href="#menu-block" class="napis">Menu</a>
+ 		<div id="menu-block">
+ 		<ol>
+ 			<li><a href="cw1.html">ćwiczenie 1</a></li>
+ 			<li><a href="#">ćwiczenie 2</a></li>
+ 			<li><a href="cw3.html">ćwiczenie 3</a></li>
+ 			<li><a href="cw4.html">ćwiczenie 4</a></li>
+ 		</ol>
+ 		<ul>
+ 			<li><a href="#s1">sekcja 1</a></li>
+ 			<li><a href="#s2">sekcja 2</a></li>
+ 			<li><a href="#s3">sekcja 3</a></li>
+ 			<li><a href="#foot">sekcja 4</a></li>
+ 		</ul>	
+ 		</div>	
+ 	</div>
+ 	<div id="main-page">
+ 		<h1 class="main-title">Tytuł strony</h1>
+ 		<h1 id="s1"> Główny nagłówek </h1>
+ 		<p>
+ 			<b>Walka ze smogiem</b>jest <strong>bardzo</strong> trudna. Najlepiej zacząć od <i>edukacji,</i> rozmawiać i&nbsp;nauczyć rodziców, dziadków i&nbsp;sąsiadów, że <em>mają duży wpływ</em> na to czy powietrze jest zanieczyszczone. Jeśli spalają w&nbsp;starych piecach, tzw. "kopciuchach", złej jakości węgiel, mokre drewno lub śmieci, to zatruwają powietrze. Śmieci należy segregować! Nie wolno ich palić! Jeśli wszędzie jeżdżą samochodem, to też szkodzą powietrzu. Warto korzystać autobusów, tramwajów, rowerów i&nbsp;własnych nóg :)<br/> teraz kod nr1:
+ 			<code>
+ 				int x; 
+ 				for(int i = 0; i&lt;x; i++)
+			       cout&lt;&lt;"hello";
+ 			</code>
+ 			teraz drugi kod: 
+ 			<samp>
+ 				 int x; 
+ 				for(int i = 0; i&lt;x; i++)
+			       cout&lt;&lt;"hello";
+ 			</samp><br/>
+ 			teraz wzór: <br/>ax<sup>2</sup> + bx + c = 0, gdy &#916; = 0, to x = x<sub>1</sub> = x<sub>2</sub> = <sup>-b</sup>/<sub>2a</sub>
+ 		</p>
+ 		<p> a teraz jeszcze raz ten kod tylko w znaczniku pre</p>
+ 			<pre>
+ 			int x;
+ 			for(int i = 0; i&lt;x; i++)
+ 				cout&lt;&lt;"hello";
+ 			</pre>
+ 		<h1 id="s2">pytania</h1>
+ 			<h2>1. Jaka jest różnica między znacznikami i oraz em? Czy zawsze dają identyczne wyniki?</h2>
+ 			<p>Tekst po użyciu tych znaczników wygląda tak samo, jednak same znaczniki bardzo się różnią. &lt;em&gt; używa się, żeby coś podkreślić. Emfaza jest stanem logicznym - może być używana jako kursywa, ale też na przykład jako czerwony, podkreślony tekst. Znacznik &lt;i&gt; reprezentuje stan fizyczny - jest po prostu pochylonym tekstem. Nie jest on zabroniony, jednak nie jest zalecany, odkąd kwestię stylu pozostawia się CSS. Znacznik &lt;em&gt; może być nadpisywany w CSS.</p>
+ 			<h2>2. Jaka jest różnica między znacznikami b oraz strong? Czy zawsze dają identyczne wyniki? </h2>
+ 			<p>
+ 				Tak samo jak w przypadku &lt;em&gt; i &lt;i&gt;, znaczniki &lt;strong&gt; i &lt;b&gt; różnią się od siebie. &lt;b&gt; wyraża tylko pogrubienie tekstu, natomiast &lt;strong&gt; stosuje się, by podkreślić znaczenie danego słowa czy zdania. Może mieć różną formę wizualną, można go nadpisać w CSS.
+ 			</p>
+ 			<h2>3. Jaka jest różnica między znacznikami code oraz samp? Czy zawsze dają identyczne wyniki?</h2>
+ 			<p>
+ 				&lt;code&gt; stosuje się do kodów programów komputerowych, a &lt;samp&gt; do outputów programu. Nie muszą dawać identycznych wyników
+ 			</p>
+ 			<h2>4. Jaka jest różnica pomiędzy fragmentem strony sformatowanej tak: &lt;p&gt;…&lt;/p&gt;&lt;p&gt;…&lt;/p&gt; oraz fragmentem o następującej postaci: &lt;p&gt;…&lt;br/&gt;&lt;br/&gt;…&lt;/p&gt;?</h2>
+ 			<p>
+ 				Wizualnie te formatowania niczym się od siebie nie różnią, jednak po użyciu pierwszej możliwości mamy do czynienia z dwoma paragrafami, po użyciu drugiej - z jednym, podzielonym pustą linią.
+ 			</p>
+ 		<h1 id="s3">sekcja 3</h1>
+ 		<p>
+ 		<b>Walka ze smogiem</b>jest <strong>bardzo</strong> trudna. Najlepiej zacząć od <i>edukacji,</i> rozmawiać i&nbsp;nauczyć rodziców, dziadków i&nbsp;sąsiadów, że <em>mają duży wpływ</em> na to czy powietrze jest zanieczyszczone. Jeśli spalają w&nbsp;starych piecach, tzw. "kopciuchach", złej jakości węgiel, mokre drewno lub śmieci, to zatruwają powietrze. Śmieci należy segregować! Nie wolno ich palić! Jeśli wszędzie jeżdżą samochodem, to też szkodzą powietrzu. Warto korzystać autobusów, tramwajów, rowerów i&nbsp;własnych nóg :)</p>
+ 	</div>	
+	 <div style="text-align: center;">
+		<p id="foot">
+	    	<a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+	    	<a href="#main-page">Wróć na górę strony</a>
+	  	</p>
+	</div>
+ </body>
+</html>
